@@ -4,3 +4,10 @@ service:
   port: 80
   protocol: TCP
   targetPort: 2368
+blog:
+  name: blog
+  replicas: 1
+  image: ghost:2.6-alpine
+  containerPort: 2368
+  url: url
+  urlValue: http://exampleblog.com
