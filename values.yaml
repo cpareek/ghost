@@ -1,0 +1,6 @@
+service:
+  name: blog
+  type: NodePort
+  port: 80
+  protocol: TCP
+  targetPort: 2368
